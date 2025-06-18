@@ -52,5 +52,18 @@ A stylish and functional shopping app built using **Flutter** and **Dart**, show
 - Blurred card background using `BackdropFilter` for a modern look
 
 ### Screenshots
+<table>
+  <tr>
+  <td><img src="screenshots/Home.png" width="300"></td>
+  <td><img src="screenshots/Item info.png" width="300"></td>
+  <td><img src="screenshots/Select Size.png" width="300"></td>
+</tr>
+<tr> 
+  <td><img src="screenshots/Added to cart.png" width="300"></td>
+  <td><img src="screenshots/Cart.png" width="300"></td>
+  <td><img src="screenshots/Cart Delete.png" width="300"></td>
+</tr>
+ </table>
+
 
 
