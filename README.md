@@ -1,39 +1,56 @@
-# Shopping-App
-# 🛍️ Shopping App (Flutter)
+# 🛍️ Flutter Shopping App
 
-This is a Flutter-based mobile shopping app designed to showcase a collection of shoes with features like filtering, search, and product display.
-
-> ⚠️ **Note**: This project is still a work in progress.
+A stylish and functional shopping app built using **Flutter** and **Dart**, showcasing a dynamic shoe catalog with cart functionality, brand filters, and interactive UI. This project focuses on creating a smooth and responsive user experience with meaningful feedback and real-world shopping app features.
 
 ---
 
-## 🚧 Current Status
+## ✨ Features
 
-- [x] Product listing with image, title, and price  
-- [x] Company filter chips  
-- [x] Product details with size selection  
-- [ ] Cart functionality  
-- [ ] Checkout flow  
-- [ ] Backend integration / Firebase  
-- [ ] User authentication  
+### 🛒 Product Catalog
+- A collection of popular shoe products with:
+  - Brand name (Nike, Adidas, Puma, etc.)
+  - Title
+  - Price
+  - Available sizes
+  - High-quality images with optional transparency
 
----
+### 🔍 Filtering
+- Horizontally scrollable chip filters:
+  - Filter by brand (`All`, `Nike`, `Adidas`, `Asics`, `Puma`)
+  - Active filter is highlighted for easy visibility
 
-## 📁 Tech Stack
+### 🔡 Size Selection
+- Users can choose from available sizes per product
+- Visual feedback for selected size using Chip UI
+- **Bottom sheet alert** if user tries to add without selecting a size
 
-- **Flutter** (Dart)
-- Material 3 Design
-- Static assets (local image files)
+### 🛍️ Cart Functionality
+- Add selected product and size to cart
+- Cart page shows a list of selected products
+- Displays:
+  - Product image
+  - Title
+  - Selected size
+  - Quantity
+  - Price
 
----
+### 🗑️ Delete from Cart
+- Tapping delete icon shows a **confirmation popup**
+- If confirmed, product is removed from the cart
+- Prevents accidental deletion
 
-## 📌 To-Do
+### ✅ User Feedback
+- Toast/snackbar/bottom sheet confirmation when:
+  - Product added to cart
+  - Size not selected
+  - Item removed from cart
+- Ensures smooth and guided interaction
 
-- Build cart and checkout pages  
-- Integrate persistent state (e.g., Provider, Riverpod, Bloc)  
-- Add database support (Firebase/SQLite)  
-- Improve UI polish & animations
+### 🎨 Theming
+- **Dark theme** with Material 3 design
+- Alternate card background colors for even/odd product tiles
+- Blurred card background using `BackdropFilter` for a modern look
 
----
+### Screenshots
 
-   git clone https://github.com/your-username/shopping-app.git
+
